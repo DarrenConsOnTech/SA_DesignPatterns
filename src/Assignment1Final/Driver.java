@@ -41,7 +41,7 @@ public class Driver {
 		
 		}while (reply.equals("Y"));
 		
-		
+		input.close();
 
 	}
 

@@ -1,5 +1,0 @@
-006 Cavendish 1.87
-007 Plantain 0.99
-008 Manzano 1.79
-009 Lady Finger 2.10
-010 Blue Java 1.65

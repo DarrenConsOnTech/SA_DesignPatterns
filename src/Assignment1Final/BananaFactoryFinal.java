@@ -4,7 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class LemonFactoryFinal implements GroceryProductFactoryFinal{
+public class BananaFactoryFinal implements GroceryProductFactoryFinal{
+
 	@Override
 	public void CreateProduct(int id) throws FileNotFoundException {
 		// TODO Auto-generated method stub
@@ -17,17 +18,17 @@ public class LemonFactoryFinal implements GroceryProductFactoryFinal{
 
 	private String getPrice(String toFind) throws FileNotFoundException{
 		// TODO Auto-generated method stub
-		Scanner search = new Scanner(new File("Architecture/src/Assignment1Final/LemonProducts.txt"));
+		Scanner search = new Scanner(new File("src/Assignment1Final/BananaProducts.txt"));
 		while (search.hasNext()) {
-			String LemonLine = search.nextLine();
-			if (LemonLine.contains(toFind)) {
+			String BananaLine = search.nextLine();
+			if (BananaLine.contains(toFind)) {
 				
-				return LemonLine;
+				return BananaLine;
 			}
 			
 		}
-		System.out.println("There is no lemon product with that ID");
+		System.out.println("There is no banana product with that ID");
 		return null;
 	}
-	
+
 }

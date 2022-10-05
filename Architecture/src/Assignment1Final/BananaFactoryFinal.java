@@ -18,7 +18,7 @@ public class BananaFactoryFinal implements GroceryProductFactoryFinal{
 
 	private String getPrice(String toFind) throws FileNotFoundException{
 		// TODO Auto-generated method stub
-		Scanner search = new Scanner(new File("/Volumes/University/NewEclipse/Architecture/src/Assignment1Final/BananaProducts.txt"));
+		Scanner search = new Scanner(new File("Architecture/src/Assignment1Final/BananaProducts.txt"));
 		while (search.hasNext()) {
 			String BananaLine = search.nextLine();
 			if (BananaLine.contains(toFind)) {

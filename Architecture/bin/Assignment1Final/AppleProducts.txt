@@ -1,0 +1,5 @@
+001 Cripps Pink 1.99
+002 Empire 1.99
+003 Granny Smith 2.20
+004 HoneyCrisp 2.66
+005 Golden Delicious 2.09

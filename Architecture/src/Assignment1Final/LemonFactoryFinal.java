@@ -17,7 +17,7 @@ public class LemonFactoryFinal implements GroceryProductFactoryFinal{
 
 	private String getPrice(String toFind) throws FileNotFoundException{
 		// TODO Auto-generated method stub
-		Scanner search = new Scanner(new File("/Volumes/University/NewEclipse/Architecture/src/Assignment1Final/LemonProducts.txt"));
+		Scanner search = new Scanner(new File("Architecture/src/Assignment1Final/LemonProducts.txt"));
 		while (search.hasNext()) {
 			String LemonLine = search.nextLine();
 			if (LemonLine.contains(toFind)) {

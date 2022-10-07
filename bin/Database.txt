@@ -1,4 +1,0 @@
-Fuji Apple,1.87
-McIntosh Apple,0.99
-Blood Orange,1.79
-Navel Orange,2.10

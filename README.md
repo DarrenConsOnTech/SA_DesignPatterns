@@ -1,10 +1,3 @@
-# Design Patterns Group 15
-<a name="readme-top"></a>
-
-[![Contributors][contributors-shield]][3]
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
   <h3 align="center">Design Patterns</h3>
